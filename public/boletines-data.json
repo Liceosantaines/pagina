@@ -1,0 +1,135 @@
+{
+  "periodos": {
+    "1": "Periodo I",
+    "2": "Periodo II",
+    "3": "Periodo III",
+    "4": "Periodo IV"
+  },
+  "niveles": {
+    "parvulos": "Párvulos",
+    "pre-jardin": "Pre-jardín",
+    "jardin": "Jardín",
+    "transicion": "Transición",
+    "primero": "Primero",
+    "segundo": "Segundo",
+    "tercero": "Tercero",
+    "cuarto": "Cuarto",
+    "quinto": "Quinto"
+  },
+  "boletines": {
+    "1": {
+      "parvulos": [
+        {
+          "nombre": "Hugo Sales",
+          "file": "boletines/periodo1/parvulos/Hugo_Sales.pdf",
+          "size": "14.46 KB"
+        },
+        {
+          "nombre": "Maria Jimenez",
+          "file": "boletines/periodo1/parvulos/Maria_Jimenez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "pre-jardin": [
+        {
+          "nombre": "Luis Fuentes",
+          "file": "boletines/periodo1/pre-jardin/Luis_Fuentes.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "jardin": [
+        {
+          "nombre": "Juan Camargo",
+          "file": "boletines/periodo1/jardin/Juan_Camargo.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "transicion": [
+        {
+          "nombre": "Luna Ramirez",
+          "file": "boletines/periodo1/transicion/Luna_Ramirez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "primero": [
+        {
+          "nombre": "Maria Lopez",
+          "file": "boletines/periodo1/primero/Maria_Lopez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "segundo": [
+        {
+          "nombre": "Alejandra Moreno",
+          "file": "boletines/periodo1/segundo/Alejandra_Moreno.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "tercero": [
+        {
+          "nombre": "Elsa Martinez",
+          "file": "boletines/periodo1/tercero/Elsa_Martinez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "cuarto": [
+        {
+          "nombre": "Alejandro Cruz",
+          "file": "boletines/periodo1/cuarto/Alejandro_Cruz.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "quinto": [
+        {
+          "nombre": "Santiago Lopez",
+          "file": "boletines/periodo1/quinto/Santiago_Lopez.pdf",
+          "size": "14.46 KB"
+        }
+      ]
+    },
+    "2": {
+      "parvulos": [],
+      "pre-jardin": [],
+      "jardin": [
+        {
+          "nombre": "Hugo Sales",
+          "file": "boletines/periodo2/jardin/Hugo_Sales.pdf",
+          "size": "14.46 KB"
+        },
+        {
+          "nombre": "Maria Jimenez",
+          "file": "boletines/periodo2/jardin/Maria_Jimenez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
+      "transicion": [],
+      "primero": [],
+      "segundo": [],
+      "tercero": [],
+      "cuarto": [],
+      "quinto": []
+    },
+    "3": {
+      "parvulos": [],
+      "pre-jardin": [],
+      "jardin": [],
+      "transicion": [],
+      "primero": [],
+      "segundo": [],
+      "tercero": [],
+      "cuarto": [],
+      "quinto": []
+    },
+    "4": {
+      "parvulos": [],
+      "pre-jardin": [],
+      "jardin": [],
+      "transicion": [],
+      "primero": [],
+      "segundo": [],
+      "tercero": [],
+      "cuarto": [],
+      "quinto": []
+    }
+  }
+}
