@@ -106,7 +106,13 @@
       "primero": [],
       "segundo": [],
       "tercero": [],
-      "cuarto": [],
+      "cuarto": [
+        {
+          "nombre": "RptConsentimientoInformado",
+          "file": "boletines/periodo2/cuarto/rptConsentimientoInformado.pdf",
+          "size": "6.96 KB"
+        }
+      ],
       "quinto": []
     },
     "3": {
