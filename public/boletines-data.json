@@ -76,7 +76,8 @@
         {
           "nombre": "Alejandro Cruz",
           "file": "boletines/periodo1/cuarto/Alejandro_Cruz.pdf",
-          "size": "14.46 KB"
+          "size": "14.46 KB",
+          "clave": "1010"
         }
       ],
       "quinto": [
@@ -88,7 +89,13 @@
       ]
     },
     "2": {
-      "parvulos": [],
+      "parvulos": [
+        {
+          "nombre": "Luna Ramirez",
+          "file": "boletines/periodo2/parvulos/Luna_Ramirez.pdf",
+          "size": "14.46 KB"
+        }
+      ],
       "pre-jardin": [],
       "jardin": [
         {

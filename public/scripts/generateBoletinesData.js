@@ -1,43 +1,43 @@
 // scripts/generateBoletinesData.js
 
-const fs   = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 const periodos = {
-  "1": "Periodo I",
-  "2": "Periodo II",
-  "3": "Periodo III",
-  "4": "Periodo IV"
+  1: "Periodo I",
+  2: "Periodo II",
+  3: "Periodo III",
+  4: "Periodo IV",
 };
-const niveles  = {
-  parvulos:     "Párvulos",
+const niveles = {
+  parvulos: "Párvulos",
   "pre-jardin": "Pre-jardín",
-  jardin:       "Jardín",
-  transicion:   "Transición",
-  primero:      "Primero",
-  segundo:      "Segundo",
-  tercero:      "Tercero",
-  cuarto:       "Cuarto",
-  quinto:       "Quinto"
+  jardin: "Jardín",
+  transicion: "Transición",
+  primero: "Primero",
+  segundo: "Segundo",
+  tercero: "Tercero",
+  cuarto: "Cuarto",
+  quinto: "Quinto",
 };
 
 function nombreDesdeArchivo(filename) {
-  const base = path.basename(filename, '.pdf');
+  const base = path.basename(filename, ".pdf");
   return base
     .split(/[_-]/)
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
 }
 
 const data = { periodos, niveles, boletines: {} };
 
-console.log('🚀 Generando boletines-data.json...');
-console.log('• __dirname:', __dirname);
-console.log('• process.cwd():', process.cwd());
+console.log("🚀 Generando boletines-data.json...");
+console.log("• __dirname:", __dirname);
+console.log("• process.cwd():", process.cwd());
 
 for (let pid of Object.keys(periodos)) {
   data.boletines[pid] = {};
-  const perDir = path.resolve(__dirname, '../boletines', 'periodo' + pid);
+  const perDir = path.resolve(__dirname, "../boletines", "periodo" + pid);
   console.log(`\n→ Periodo ${pid}: buscando en ${perDir}`);
   for (let slug of Object.keys(niveles)) {
     const nivelDir = path.join(perDir, slug);
@@ -50,33 +50,49 @@ for (let pid of Object.keys(periodos)) {
     console.log(`   📂 Nivel ${slug}: existe, leyendo PDFs…`);
 
     fs.readdirSync(nivelDir)
-      .filter(f => f.toLowerCase().endsWith('.pdf'))
-      .forEach(file => {
+      .filter((f) => f.toLowerCase().endsWith(".pdf"))
+      .forEach((file) => {
         const fullPath = path.join(nivelDir, file);
-        const stat     = fs.statSync(fullPath);
-
+        const stat = fs.statSync(fullPath);
         // tamaño legible
-        let size = (stat.size / (1024 * 1024)).toFixed(2) + ' MB';
-        if (stat.size < 1024 * 1024) size = (stat.size / 1024).toFixed(2) + ' KB';
+        let size = (stat.size / (1024 * 1024)).toFixed(2) + " MB";
+        if (stat.size < 1024 * 1024)
+          size = (stat.size / 1024).toFixed(2) + " KB";
+        // Extraer clave si existe (después del '#')
+        const claveMatch = file.match(/#(\d+)/);
+        const clave = claveMatch ? claveMatch[1] : null;
+        console.log(clave)
+        // Nuevo nombre físico del archivo (sin #clave)
+        const cleanFile = file.replace(/#\d+/, "");
 
-        const nombre = nombreDesdeArchivo(file);
-        console.log(`     ✔ PDF encontrado: ${file} → nombre="${nombre}", size=${size}`);
+        // Renombrar archivo en disco si es necesario
+        if (cleanFile !== file) {
+          const newFullPath = path.join(nivelDir, cleanFile);
+          if (!fs.existsSync(newFullPath)) {
+            fs.renameSync(fullPath, newFullPath);
+            console.log(`     🔁 Renombrado: ${file} → ${cleanFile}`);
+          }
+        }
+
+        const nombre = nombreDesdeArchivo(cleanFile);
+
+        console.log(
+          `     ✔ PDF encontrado: ${file} → nombre="${nombre}", size=${size}`
+        );
 
         data.boletines[pid][slug].push({
           nombre,
-          file:   path.posix.join('boletines','periodo'+pid,slug,file),
-          size
+          file: path.posix.join("boletines", "periodo" + pid, slug, cleanFile),
+          size,
+          ...(clave && { clave }),
         });
       });
 
-    console.log(
-      `   📑 Total en ${slug}:`,
-      data.boletines[pid][slug].length
-    );
+    console.log(`   📑 Total en ${slug}:`, data.boletines[pid][slug].length);
   }
 }
 
 // Escribe (o sobreescribe) el JSON en la raíz
-const outPath = path.resolve(__dirname, '../boletines-data.json');
-fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
+const outPath = path.resolve(__dirname, "../boletines-data.json");
+fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
 console.log(`\n✅ ¡Listo! ${outPath} actualizado.`);
