@@ -76,8 +76,7 @@
         {
           "nombre": "Alejandro Cruz",
           "file": "boletines/periodo1/cuarto/Alejandro_Cruz.pdf",
-          "size": "14.46 KB",
-          "clave": "1010"
+          "size": "14.46 KB"
         }
       ],
       "quinto": [
@@ -91,36 +90,565 @@
     "2": {
       "parvulos": [
         {
+          "nombre": "Hugo Sales",
+          "file": "boletines/periodo2/parvulos/Hugo_Sales.pdf",
+          "size": "14.46 KB"
+        },
+        {
           "nombre": "Luna Ramirez",
           "file": "boletines/periodo2/parvulos/Luna_Ramirez.pdf",
-          "size": "14.46 KB"
-        }
-      ],
-      "pre-jardin": [],
-      "jardin": [
-        {
-          "nombre": "Hugo Sales",
-          "file": "boletines/periodo2/jardin/Hugo_Sales.pdf",
           "size": "14.46 KB"
         },
         {
           "nombre": "Maria Jimenez",
-          "file": "boletines/periodo2/jardin/Maria_Jimenez.pdf",
+          "file": "boletines/periodo2/parvulos/Maria_Jimenez.pdf",
           "size": "14.46 KB"
         }
       ],
-      "transicion": [],
-      "primero": [],
-      "segundo": [],
-      "tercero": [],
-      "cuarto": [
+      "pre-jardin": [
         {
-          "nombre": "RptConsentimientoInformado",
-          "file": "boletines/periodo2/cuarto/rptConsentimientoInformado.pdf",
-          "size": "6.96 KB"
+          "nombre": "ALMA MOLINA",
+          "file": "boletines/periodo2/pre-jardin/ALMA_MOLINA.pdf",
+          "size": "356.22 KB",
+          "clave": "1049664055"
+        },
+        {
+          "nombre": "ANNA GUERRERO",
+          "file": "boletines/periodo2/pre-jardin/ANNA_GUERRERO.pdf",
+          "size": "337.28 KB",
+          "clave": "1029525035"
+        },
+        {
+          "nombre": "ANTONELLA MURCIA",
+          "file": "boletines/periodo2/pre-jardin/ANTONELLA_MURCIA.pdf",
+          "size": "363.35 KB",
+          "clave": "1029525275"
+        },
+        {
+          "nombre": "EMANUEL PEREA",
+          "file": "boletines/periodo2/pre-jardin/EMANUEL_PEREA.pdf",
+          "size": "337.63 KB",
+          "clave": "1029525118"
+        },
+        {
+          "nombre": "HANNA CAMACHO",
+          "file": "boletines/periodo2/pre-jardin/HANNA_CAMACHO.pdf",
+          "size": "337.23 KB",
+          "clave": "1050633966"
+        },
+        {
+          "nombre": "MARIANGEL SARMIENTO",
+          "file": "boletines/periodo2/pre-jardin/MARIANGEL_SARMIENTO.pdf",
+          "size": "356.17 KB",
+          "clave": "1049663587"
+        },
+        {
+          "nombre": "MARIA LEAL",
+          "file": "boletines/periodo2/pre-jardin/MARIA_LEAL.pdf",
+          "size": "337.33 KB",
+          "clave": "1029525405"
+        },
+        {
+          "nombre": "SAMUEL DIAGAMA ",
+          "file": "boletines/periodo2/pre-jardin/SAMUEL_DIAGAMA .pdf",
+          "size": "337.27 KB",
+          "clave": "1049663394"
+        },
+        {
+          "nombre": "SARA HERNANDEZ",
+          "file": "boletines/periodo2/pre-jardin/SARA_HERNANDEZ.pdf",
+          "size": "356.07 KB",
+          "clave": "1049663848"
         }
       ],
-      "quinto": []
+      "jardin": [
+        {
+          "nombre": "ANAMARIA GARRIDO",
+          "file": "boletines/periodo2/jardin/ANAMARIA_GARRIDO.pdf",
+          "size": "149.37 KB",
+          "clave": "1050632899"
+        },
+        {
+          "nombre": "AUDRIE GARCIA 1",
+          "file": "boletines/periodo2/jardin/AUDRIE_GARCIA-1.pdf",
+          "size": "148.97 KB",
+          "clave": "1050633430"
+        },
+        {
+          "nombre": "FELIPE GUTIERREZ",
+          "file": "boletines/periodo2/jardin/FELIPE_GUTIERREZ.pdf",
+          "size": "148.74 KB",
+          "clave": "1050633032"
+        },
+        {
+          "nombre": "IAN RUIDIAZ",
+          "file": "boletines/periodo2/jardin/IAN_RUIDIAZ.pdf",
+          "size": "148.97 KB",
+          "clave": "1051077448"
+        },
+        {
+          "nombre": "JERONIMO MONGUI",
+          "file": "boletines/periodo2/jardin/JERONIMO_MONGUI.pdf",
+          "size": "148.93 KB",
+          "clave": "1150441329"
+        },
+        {
+          "nombre": "PAULA SALAS",
+          "file": "boletines/periodo2/jardin/PAULA_SALAS.pdf",
+          "size": "148.59 KB",
+          "clave": "1051077646"
+        },
+        {
+          "nombre": "VALENTINA RUGE",
+          "file": "boletines/periodo2/jardin/VALENTINA_RUGE.pdf",
+          "size": "148.53 KB",
+          "clave": "1051077808"
+        }
+      ],
+      "transicion": [
+        {
+          "nombre": "ALEJANDRO AREVALO",
+          "file": "boletines/periodo2/transicion/ALEJANDRO_AREVALO.pdf",
+          "size": "137.22 KB",
+          "clave": "1010848399"
+        },
+        {
+          "nombre": "DANIEL SANCHEZ",
+          "file": "boletines/periodo2/transicion/DANIEL_SANCHEZ.pdf",
+          "size": "137.21 KB",
+          "clave": "1051077072"
+        },
+        {
+          "nombre": "EMILIA PRECIADO",
+          "file": "boletines/periodo2/transicion/EMILIA_PRECIADO.pdf",
+          "size": "137.40 KB",
+          "clave": "1050632639"
+        },
+        {
+          "nombre": "HELLEN PARRA",
+          "file": "boletines/periodo2/transicion/HELLEN_PARRA.pdf",
+          "size": "137.35 KB",
+          "clave": "1057467094"
+        },
+        {
+          "nombre": "JUANFERNANDO TORRES",
+          "file": "boletines/periodo2/transicion/JUANFERNANDO_TORRES.pdf",
+          "size": "137.17 KB",
+          "clave": "1051077382"
+        },
+        {
+          "nombre": "JUAN BARRAGAN",
+          "file": "boletines/periodo2/transicion/JUAN_BARRAGAN.pdf",
+          "size": "137.12 KB",
+          "clave": "1051076866"
+        },
+        {
+          "nombre": "JUAN BERNAL",
+          "file": "boletines/periodo2/transicion/JUAN_BERNAL.pdf",
+          "size": "137.24 KB",
+          "clave": "1049662810"
+        },
+        {
+          "nombre": "JULIANA CHAPARRO",
+          "file": "boletines/periodo2/transicion/JULIANA_CHAPARRO.pdf",
+          "size": "137.16 KB",
+          "clave": "1019848409"
+        },
+        {
+          "nombre": "LAURA PIRATOBA",
+          "file": "boletines/periodo2/transicion/LAURA_PIRATOBA.pdf",
+          "size": "137.13 KB",
+          "clave": "1050632448"
+        },
+        {
+          "nombre": "LUCIANA CORTES",
+          "file": "boletines/periodo2/transicion/LUCIANA_CORTES.pdf",
+          "size": "137.41 KB",
+          "clave": "1073386428"
+        },
+        {
+          "nombre": "MATEO BUSTOS",
+          "file": "boletines/periodo2/transicion/MATEO_BUSTOS.pdf",
+          "size": "137.15 KB",
+          "clave": "1051077337"
+        },
+        {
+          "nombre": "MATIAS FORERO",
+          "file": "boletines/periodo2/transicion/MATIAS_FORERO.pdf",
+          "size": "137.09 KB",
+          "clave": "1016919713"
+        },
+        {
+          "nombre": "MATTHIAS REICH",
+          "file": "boletines/periodo2/transicion/MATTHIAS_REICH.pdf",
+          "size": "137.45 KB",
+          "clave": "1029524581"
+        },
+        {
+          "nombre": "MIRANDA GOMEZ",
+          "file": "boletines/periodo2/transicion/MIRANDA_GOMEZ.pdf",
+          "size": "137.38 KB",
+          "clave": "1014900592"
+        },
+        {
+          "nombre": "SAMANTHA PUERTO",
+          "file": "boletines/periodo2/transicion/SAMANTHA_PUERTO.pdf",
+          "size": "137.16 KB",
+          "clave": "1049661869"
+        },
+        {
+          "nombre": "SAMUEL CAMARGO",
+          "file": "boletines/periodo2/transicion/SAMUEL_CAMARGO.pdf",
+          "size": "137.28 KB",
+          "clave": "1050632333"
+        },
+        {
+          "nombre": "SERGIO LEAL",
+          "file": "boletines/periodo2/transicion/SERGIO_LEAL.pdf",
+          "size": "137.19 KB",
+          "clave": "1051077436"
+        },
+        {
+          "nombre": "VALENTINA GUTIERREZ",
+          "file": "boletines/periodo2/transicion/VALENTINA_GUTIERREZ.pdf",
+          "size": "137.17 KB",
+          "clave": "1051076981"
+        }
+      ],
+      "primero": [
+        {
+          "nombre": "CAMILO MONROY",
+          "file": "boletines/periodo2/primero/CAMILO_MONROY.pdf",
+          "size": "190.73 KB",
+          "clave": "1050102973"
+        },
+        {
+          "nombre": "DULCE CARMONA",
+          "file": "boletines/periodo2/primero/DULCE_CARMONA.pdf",
+          "size": "188.53 KB",
+          "clave": "1197472422"
+        },
+        {
+          "nombre": "JOEL ESQUIVEL",
+          "file": "boletines/periodo2/primero/JOEL_ESQUIVEL.pdf",
+          "size": "188.80 KB",
+          "clave": "1025079716"
+        },
+        {
+          "nombre": "LIAM ANACONA",
+          "file": "boletines/periodo2/primero/LIAM_ANACONA.pdf",
+          "size": "188.63 KB",
+          "clave": "1051076031"
+        },
+        {
+          "nombre": "MARIANA PAEZ",
+          "file": "boletines/periodo2/primero/MARIANA_PAEZ.pdf",
+          "size": "189.17 KB",
+          "clave": "1050102801"
+        },
+        {
+          "nombre": "MARIA TOBON",
+          "file": "boletines/periodo2/primero/MARIA_TOBON.pdf",
+          "size": "189.62 KB",
+          "clave": "1029061755"
+        },
+        {
+          "nombre": "PAULA VILLAMIL",
+          "file": "boletines/periodo2/primero/PAULA_VILLAMIL.pdf",
+          "size": "195.71 KB",
+          "clave": "1050103091"
+        },
+        {
+          "nombre": "SAMUEL ORDUZ",
+          "file": "boletines/periodo2/primero/SAMUEL_ORDUZ.pdf",
+          "size": "189.03 KB",
+          "clave": "1027301418"
+        },
+        {
+          "nombre": "YATZIRI BUITRAGO",
+          "file": "boletines/periodo2/primero/YATZIRI_BUITRAGO.pdf",
+          "size": "189.49 KB",
+          "clave": "1051076381"
+        }
+      ],
+      "segundo": [
+        {
+          "nombre": "AnaVictoria MarcaPulido",
+          "file": "boletines/periodo2/segundo/AnaVictoria_MarcaPulido.pdf",
+          "size": "151.86 KB",
+          "clave": "1150440503"
+        },
+        {
+          "nombre": "Antonella PedarzaJimenez",
+          "file": "boletines/periodo2/segundo/Antonella_PedarzaJimenez.pdf",
+          "size": "151.59 KB",
+          "clave": "1050631631"
+        },
+        {
+          "nombre": "AryaGabriela PanquevaAmezquita",
+          "file": "boletines/periodo2/segundo/AryaGabriela_PanquevaAmezquita.pdf",
+          "size": "151.87 KB",
+          "clave": "1057986534"
+        },
+        {
+          "nombre": "AuraGabriela GarridoMoreno",
+          "file": "boletines/periodo2/segundo/AuraGabriela_GarridoMoreno.pdf",
+          "size": "151.94 KB",
+          "clave": "1150440254"
+        },
+        {
+          "nombre": "DavidLeonardo FigueroaRojas",
+          "file": "boletines/periodo2/segundo/DavidLeonardo_FigueroaRojas.pdf",
+          "size": "151.53 KB",
+          "clave": "1150440716"
+        },
+        {
+          "nombre": "HellenSilvana AscencioFuquen",
+          "file": "boletines/periodo2/segundo/HellenSilvana_AscencioFuquen.pdf",
+          "size": "151.89 KB",
+          "clave": "1150440533"
+        },
+        {
+          "nombre": "JoseMartin MartinezRache",
+          "file": "boletines/periodo2/segundo/JoseMartin_MartinezRache.pdf",
+          "size": "151.75 KB",
+          "clave": "1050102118"
+        },
+        {
+          "nombre": "MichelleIsabella  BermudezLopez",
+          "file": "boletines/periodo2/segundo/MichelleIsabella_ BermudezLopez.pdf",
+          "size": "152.03 KB",
+          "clave": "1049665255"
+        },
+        {
+          "nombre": "MichelleLuciana HillonCastelblanco",
+          "file": "boletines/periodo2/segundo/MichelleLuciana_HillonCastelblanco.pdf",
+          "size": "151.80 KB",
+          "clave": "1051075855"
+        },
+        {
+          "nombre": "MilaNahiara AnaconaHerrera",
+          "file": "boletines/periodo2/segundo/MilaNahiara_AnaconaHerrera.pdf",
+          "size": "151.98 KB",
+          "clave": "1051074467"
+        },
+        {
+          "nombre": "NicolasDavid GonzalezIbañez",
+          "file": "boletines/periodo2/segundo/NicolasDavid_GonzalezIbañez.pdf",
+          "size": "151.83 KB",
+          "clave": "1051075203"
+        },
+        {
+          "nombre": "Valeria RuizFonseca",
+          "file": "boletines/periodo2/segundo/Valeria_RuizFonseca.pdf",
+          "size": "152.22 KB",
+          "clave": "1051076051"
+        },
+        {
+          "nombre": "Veronica PerdomoUribe",
+          "file": "boletines/periodo2/segundo/Veronica_PerdomoUribe.pdf",
+          "size": "152.24 KB",
+          "clave": "1051076007"
+        }
+      ],
+      "tercero": [
+        {
+          "nombre": "ANALUCÍA VARÓN CARVAJAL",
+          "file": "boletines/periodo2/tercero/ANALUCÍA_VARÓN CARVAJAL.pdf",
+          "size": "216.00 KB",
+          "clave": "1150439392"
+        },
+        {
+          "nombre": "ANNIE LUCCIANA CADENA PUENTES ",
+          "file": "boletines/periodo2/tercero/ANNIE LUCCIANA_CADENA PUENTES .pdf",
+          "size": "217.85 KB",
+          "clave": "1051075139"
+        },
+        {
+          "nombre": "DANNA GABRIELA RAMIREZ MOLINA ",
+          "file": "boletines/periodo2/tercero/DANNA GABRIELA_RAMIREZ MOLINA .pdf",
+          "size": "216.24 KB",
+          "clave": "1050101251"
+        },
+        {
+          "nombre": "JUAN ANDRES GOMEZ SUAREZ ",
+          "file": "boletines/periodo2/tercero/JUAN ANDRES_GOMEZ SUAREZ .pdf",
+          "size": "216.78 KB",
+          "clave": "1051075549"
+        },
+        {
+          "nombre": "JUAN DIEGO BARRIENTOS GONZALEZ ",
+          "file": "boletines/periodo2/tercero/JUAN DIEGO_BARRIENTOS GONZALEZ .pdf",
+          "size": "217.33 KB",
+          "clave": "1050629108"
+        },
+        {
+          "nombre": "LAURA CAMILA CHACON LOPEZ ",
+          "file": "boletines/periodo2/tercero/LAURA CAMILA_CHACON LOPEZ .pdf",
+          "size": "217.37 KB",
+          "clave": "1101624762"
+        },
+        {
+          "nombre": "LUIS CARLOS  MURCIA MEJIA ",
+          "file": "boletines/periodo2/tercero/LUIS CARLOS_ MURCIA MEJIA .pdf",
+          "size": "217.76 KB",
+          "clave": "1056135503"
+        },
+        {
+          "nombre": "MARIA ISABELLA  GUTIERREZ NAJAR ",
+          "file": "boletines/periodo2/tercero/MARIA ISABELLA _GUTIERREZ NAJAR .pdf",
+          "size": "216.93 KB",
+          "clave": "1051074880"
+        },
+        {
+          "nombre": "MARIA JOSE CASTRO IGUA ",
+          "file": "boletines/periodo2/tercero/MARIA JOSE_CASTRO IGUA .pdf",
+          "size": "217.58 KB",
+          "clave": "1050629754"
+        }
+      ],
+      "cuarto": [
+        {
+          "nombre": "AdrianEsteban SalomonEspitia",
+          "file": "boletines/periodo2/cuarto/AdrianEsteban_SalomonEspitia.pdf",
+          "size": "145.69 KB",
+          "clave": "1051074069"
+        },
+        {
+          "nombre": "AngelaLuciana CholoLargo",
+          "file": "boletines/periodo2/cuarto/AngelaLuciana_CholoLargo.pdf",
+          "size": "146.26 KB",
+          "clave": "1050628596"
+        },
+        {
+          "nombre": "DanielSantiago ParezOtalora",
+          "file": "boletines/periodo2/cuarto/DanielSantiago_ParezOtalora.pdf",
+          "size": "146.24 KB",
+          "clave": "1029523715"
+        },
+        {
+          "nombre": "JoseDaniel ContrerasFigueredo",
+          "file": "boletines/periodo2/cuarto/JoseDaniel_ContrerasFigueredo.pdf",
+          "size": "145.97 KB",
+          "clave": "1050628138"
+        },
+        {
+          "nombre": "JuanJose MenjuraSierra",
+          "file": "boletines/periodo2/cuarto/JuanJose_MenjuraSierra.pdf",
+          "size": "145.80 KB",
+          "clave": "1025152428"
+        },
+        {
+          "nombre": "Luciana GarciaAranguren",
+          "file": "boletines/periodo2/cuarto/Luciana_GarciaAranguren.pdf",
+          "size": "139.71 KB",
+          "clave": "1029523509"
+        },
+        {
+          "nombre": "MariaAntonia RoaSogamoso",
+          "file": "boletines/periodo2/cuarto/MariaAntonia_RoaSogamoso.pdf",
+          "size": "145.56 KB",
+          "clave": "1048850966"
+        },
+        {
+          "nombre": "Nicolas BlancoMonroy",
+          "file": "boletines/periodo2/cuarto/Nicolas_BlancoMonroy.pdf",
+          "size": "146.35 KB",
+          "clave": "1051074101"
+        },
+        {
+          "nombre": "SaraValentina DuarteSilva",
+          "file": "boletines/periodo2/cuarto/SaraValentina_DuarteSilva.pdf",
+          "size": "146.34 KB",
+          "clave": "1058359055"
+        }
+      ],
+      "quinto": [
+        {
+          "nombre": "ANALUCIA RODRIGUEZPEÑA",
+          "file": "boletines/periodo2/quinto/ANALUCIA_RODRIGUEZPEÑA.pdf",
+          "size": "212.73 KB",
+          "clave": "1027292144"
+        },
+        {
+          "nombre": "ANTONIAMANCIPE RINCÓN",
+          "file": "boletines/periodo2/quinto/ANTONIAMANCIPE_RINCÓN.pdf",
+          "size": "204.17 KB",
+          "clave": "1051074223"
+        },
+        {
+          "nombre": "CAMILOSTEBAN RAMIREZMORENO",
+          "file": "boletines/periodo2/quinto/CAMILOSTEBAN_RAMIREZMORENO.pdf",
+          "size": "212.29 KB",
+          "clave": "1049647618"
+        },
+        {
+          "nombre": "DAVIDALEJANDRO RUGEORTIZ",
+          "file": "boletines/periodo2/quinto/DAVIDALEJANDRO_RUGEORTIZ.pdf",
+          "size": "213.17 KB",
+          "clave": "1051073754"
+        },
+        {
+          "nombre": "ISABELLA POLOIBAÑEZ",
+          "file": "boletines/periodo2/quinto/ISABELLA_POLOIBAÑEZ.pdf",
+          "size": "212.34 KB",
+          "clave": "1051073778"
+        },
+        {
+          "nombre": "JERONIMOANDRES WAKEDMARTINEZ",
+          "file": "boletines/periodo2/quinto/JERONIMOANDRES_WAKEDMARTINEZ.pdf",
+          "size": "213.34 KB",
+          "clave": "1051074017"
+        },
+        {
+          "nombre": "JUANANDRES PEREZRUIZ",
+          "file": "boletines/periodo2/quinto/JUANANDRES_PEREZRUIZ.pdf",
+          "size": "212.48 KB",
+          "clave": "1052499345"
+        },
+        {
+          "nombre": "JUANDAVID MARTINEZCOY",
+          "file": "boletines/periodo2/quinto/JUANDAVID_MARTINEZCOY.pdf",
+          "size": "212.74 KB",
+          "clave": "1050619240"
+        },
+        {
+          "nombre": "JUANJOSE PEREAMONTAÑEZ",
+          "file": "boletines/periodo2/quinto/JUANJOSE_PEREAMONTAÑEZ.pdf",
+          "size": "212.80 KB",
+          "clave": "1050620279"
+        },
+        {
+          "nombre": "KARLASOFIA PAREDESECHEVERRIA",
+          "file": "boletines/periodo2/quinto/KARLASOFIA_PAREDESECHEVERRIA.pdf",
+          "size": "213.15 KB",
+          "clave": "1050619255"
+        },
+        {
+          "nombre": "LUISAFERNANDA GUZMANSANDOVAL",
+          "file": "boletines/periodo2/quinto/LUISAFERNANDA_GUZMANSANDOVAL.pdf",
+          "size": "213.55 KB",
+          "clave": "1051073442"
+        },
+        {
+          "nombre": "MARIACAMILA CONTRERASRACHE",
+          "file": "boletines/periodo2/quinto/MARIACAMILA_CONTRERASRACHE.pdf",
+          "size": "212.68 KB",
+          "clave": "1050099618"
+        },
+        {
+          "nombre": "PAULANATALIA GALVISGARCIA",
+          "file": "boletines/periodo2/quinto/PAULANATALIA_GALVISGARCIA.pdf",
+          "size": "212.89 KB",
+          "clave": "1051074009"
+        },
+        {
+          "nombre": "SAMUELSANTIAGO BARRIENTOSGONZALEZ",
+          "file": "boletines/periodo2/quinto/SAMUELSANTIAGO_BARRIENTOSGONZALEZ.pdf",
+          "size": "212.94 KB",
+          "clave": "1050619457"
+        }
+      ]
     },
     "3": {
       "parvulos": [],
