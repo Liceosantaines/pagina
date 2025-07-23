@@ -95,6 +95,11 @@
           "size": "14.46 KB"
         },
         {
+          "nombre": "Karla Suarez# 1050634689",
+          "file": "boletines/periodo2/parvulos/Karla_Suarez# 1050634689.pdf",
+          "size": "387.55 KB"
+        },
+        {
           "nombre": "Luna Ramirez",
           "file": "boletines/periodo2/parvulos/Luna_Ramirez.pdf",
           "size": "14.46 KB"
@@ -134,8 +139,7 @@
         {
           "nombre": "Karla Suarez ",
           "file": "boletines/periodo2/pre-jardin/Karla_Suarez .pdf",
-          "size": "387.55 KB",
-          "clave": "1050634689"
+          "size": "387.55 KB"
         },
         {
           "nombre": "MARIANGEL SARMIENTO",
@@ -448,10 +452,15 @@
           "size": "217.58 KB"
         },
         {
+          "nombre": "MARTIN ESTEBAN SALAZAR CASTILLO",
+          "file": "boletines/periodo2/tercero/MARTIN ESTEBAN_SALAZAR CASTILLO.pdf",
+          "size": "217.29 KB",
+          "clave": "1050101606"
+        },
+        {
           "nombre": "SERGIO NICOLAS  MORENOCASTELBLANCO",
           "file": "boletines/periodo2/tercero/SERGIO NICOLAS_ MORENOCASTELBLANCO.pdf",
-          "size": "217.46 KB",
-          "clave": "1052413367"
+          "size": "217.46 KB"
         }
       ],
       "cuarto": [
@@ -481,6 +490,18 @@
           "size": "145.80 KB"
         },
         {
+          "nombre": "KarolSalome IbañezGonzalez",
+          "file": "boletines/periodo2/cuarto/KarolSalome_IbañezGonzalez.pdf",
+          "size": "148.02 KB",
+          "clave": "1049652037"
+        },
+        {
+          "nombre": "Luciana CamargoGomez",
+          "file": "boletines/periodo2/cuarto/Luciana_CamargoGomez.pdf",
+          "size": "146.82 KB",
+          "clave": "1050620040"
+        },
+        {
           "nombre": "Luciana GarciaAranguren",
           "file": "boletines/periodo2/cuarto/Luciana_GarciaAranguren.pdf",
           "size": "139.71 KB"
@@ -494,6 +515,12 @@
           "nombre": "Nicolas BlancoMonroy",
           "file": "boletines/periodo2/cuarto/Nicolas_BlancoMonroy.pdf",
           "size": "146.35 KB"
+        },
+        {
+          "nombre": "Salome CastilloAvila",
+          "file": "boletines/periodo2/cuarto/Salome_CastilloAvila.pdf",
+          "size": "147.19 KB",
+          "clave": "1051073882"
         },
         {
           "nombre": "SaraValentina DuarteSilva",
