@@ -2005,3 +2005,22 @@ body {
 .error { color:red; text-align:center; margin-top:1rem;}
 
 
+
+/* ----- Manual de Convivencia ----- */
+.manual-contenido { padding: 3rem 1rem; }
+.manual-contenido .titulo-azul { font-size: 2.5rem; margin-bottom: 1rem; }
+.manual-intro { max-width: 760px; font-size: 1.05rem; margin-bottom: 0.5rem; }
+.manual-acciones { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+.manual-acciones .btn-rojo i { margin-right: 0.4rem; }
+.btn-manual-descarga { background: #0E1133; }
+.btn-manual-descarga:hover { background: #2792fd; }
+.manual-visor iframe {
+  width: 100%; height: 85vh; min-height: 500px; border: 0;
+  border-radius: var(--radius); box-shadow: 0 4px 16px rgba(0,0,0,0.12); background: #f4f4f4;
+}
+.manual-fallback { margin-top: 0.8rem; font-size: 0.9rem; color: #555; text-align: center; }
+.manual-fallback a { color: #ff5d67; font-weight: bold; }
+@media (max-width: 768px) {
+  .manual-contenido .titulo-azul { font-size: 1.8rem; }
+  .manual-visor iframe { height: 70vh; min-height: 400px; }
+}

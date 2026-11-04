@@ -4,13 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const lightboxImg = document.querySelector('.lightbox-imagen');
   let indiceActual = 0;
   let touchStartX = 0;
-  const imagenes = [];
+  const imagenes = [];   // fotos en tamaño completo (solo se cargan al verlas)
+  const miniaturas = []; // versiones pequeñas para la tira inferior
   const SWIPE_THRESHOLD = 30;
 
   // Extraer URLs de las imágenes
   galeriaItems.forEach(item => {
     const bg = item.style.backgroundImage;
-    imagenes.push(bg.replace(/^url\(["']?/, '').replace(/["']?\)$/, ''));
+    const thumb = bg.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+    miniaturas.push(thumb.replace('images/thumbs/', 'images/mini/'));
+    imagenes.push(thumb.replace('images/thumbs/', 'images/'));
   });
 
   // Funcionalidad del lightbox
@@ -35,7 +38,7 @@ const crearMiniaturas = () => {
   imagenes.forEach((src, index) => {
     const thumb = document.createElement('div');
     thumb.className = `lightbox-thumb-bottom ${index === indiceActual ? 'active' : ''}`;
-    thumb.style.backgroundImage = `url(${src})`;
+    thumb.style.backgroundImage = `url(${miniaturas[index]})`;
     thumb.addEventListener('click', () => {
       indiceActual = index;
       lightboxImg.style.opacity = 0;
